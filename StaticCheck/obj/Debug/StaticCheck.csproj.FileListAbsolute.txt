@@ -1,0 +1,9 @@
+C:\Workspace\HappyCode\StaticCheck\Execute\StaticCheck.exe.config
+C:\Workspace\HappyCode\StaticCheck\Execute\StaticCheck.exe
+C:\Workspace\HappyCode\StaticCheck\Execute\StaticCheck.pdb
+C:\Workspace\HappyCode\StaticCheck\StaticCheck\obj\Debug\StaticCheck.csprojResolveAssemblyReference.cache
+C:\Workspace\HappyCode\StaticCheck\StaticCheck\obj\Debug\StaticCheck.Properties.Resources.resources
+C:\Workspace\HappyCode\StaticCheck\StaticCheck\obj\Debug\StaticCheck.StaticCheck.resources
+C:\Workspace\HappyCode\StaticCheck\StaticCheck\obj\Debug\StaticCheck.csproj.GenerateResource.Cache
+C:\Workspace\HappyCode\StaticCheck\StaticCheck\obj\Debug\StaticCheck.exe
+C:\Workspace\HappyCode\StaticCheck\StaticCheck\obj\Debug\StaticCheck.pdb
