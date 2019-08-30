@@ -1857,7 +1857,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:StaticCheckSetup"
         "ProductCode" = "8:{CC59CAFC-AA17-4F73-B966-4B6187277571}"
-        "PackageCode" = "8:{2825278E-114A-4F42-9F89-8D8FCF563965}"
+        "PackageCode" = "8:{4AED7D72-9805-4C39-A325-C85FBAB8C61C}"
         "UpgradeCode" = "8:{D4E9FDF9-0562-46DC-B4B4-DD7D8926CD1D}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -1979,7 +1979,7 @@
         {
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_FD1B51D7B8184FB08155A1EDB1328FDB"
             {
-            "Name" = "8:StaticCheck"
+            "Name" = "8:StaticCheck(Happy)"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"

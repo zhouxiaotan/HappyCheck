@@ -6,3 +6,4 @@ C:\Workspace\HappyCode\StaticCheck\StaticCheck\obj\Release\StaticCheck.StaticChe
 C:\Workspace\HappyCode\StaticCheck\StaticCheck\obj\Release\StaticCheck.csproj.GenerateResource.Cache
 C:\Workspace\HappyCode\StaticCheck\StaticCheck\obj\Release\StaticCheck.exe
 C:\Workspace\HappyCode\StaticCheck\StaticCheck\obj\Release\StaticCheck.pdb
+C:\Workspace\HappyCode\StaticCheck\StaticCheck\obj\Release\StaticCheck.csprojResolveAssemblyReference.cache
