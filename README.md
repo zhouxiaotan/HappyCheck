@@ -1,4 +1,4 @@
-# StaticCheck
+# HappyCheck
 使用CppCheck进行静态代码检查的工具
 
 变更历史：<br>
