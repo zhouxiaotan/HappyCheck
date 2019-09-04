@@ -4,9 +4,9 @@
 变更历史：<br>
 <br>
 2019.09.04 <br>
-1. 变更项目名位HappyCheck<br>
+1. 变更项目名位HappyCheck <br>
 2. 追加错误代码列<br>
-<br>
+
 <br>
 2019.08.31 <br>
 1. 使用CppCheck 1.88<br>
