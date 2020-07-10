@@ -13,3 +13,11 @@ C:\Workspace\HappyCode\StaticCheck\HappyCheck\obj\Release\StaticCheck.StaticChec
 C:\Workspace\HappyCode\StaticCheck\HappyCheck\obj\Release\HappyCheck.csproj.GenerateResource.Cache
 C:\Workspace\HappyCode\StaticCheck\Execute\HappyCheck.exe.CodeAnalysisLog.xml
 C:\Workspace\HappyCode\StaticCheck\Execute\HappyCheck.exe.lastcodeanalysissucceeded
+C:\Workspace\HappyCode\HappyCheck\Execute\HappyCheck.exe.config
+C:\Workspace\HappyCode\HappyCheck\HappyCheck\obj\Release\HappyCheck.exe
+C:\Workspace\HappyCode\HappyCheck\HappyCheck\obj\Release\HappyCheck.pdb
+C:\Workspace\HappyCode\HappyCheck\Execute\HappyCheck.exe
+C:\Workspace\HappyCode\HappyCheck\Execute\HappyCheck.pdb
+C:\Workspace\HappyCode\HappyCheck\HappyCheck\obj\Release\HappyCheck.Properties.Resources.resources
+C:\Workspace\HappyCode\HappyCheck\HappyCheck\obj\Release\StaticCheck.StaticCheck.resources
+C:\Workspace\HappyCode\HappyCheck\HappyCheck\obj\Release\HappyCheck.csproj.GenerateResource.Cache
