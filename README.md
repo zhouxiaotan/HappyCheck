@@ -22,6 +22,11 @@
 2.支持目录编辑，粘贴等。<br>
 3.使用4线程进行检查。
 
+<br>
+2020.07.10
+<br>
+1.使用CppCheck 2.1。<br>
+
 
 安装文件:<br>
 https://github.com/zhouxiaotan/StaticCheck/blob/master/Installer/HappyCheckSetup.msi
