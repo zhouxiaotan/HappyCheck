@@ -196,6 +196,9 @@ namespace StaticCheck
                 string fomat = "--template=\"{file}#{line}#{severity}#{id}#{message}#{code}\"";
                 //string strParam = string.Format(" --enable=all -j 2 -i {0} {1} --xml 2>{2}", excludeFolder, beCheckFolder, "\"" + strCheckXml + "\"");
                 string strParam = string.Format(" --enable=all -j 4 {0} {2} 2>{1}", beCheckFolder, "\"" + TempFile + "\"", fomat);
+
+                // --enable=all -j 4 C:\\Workspace\\NTT\\PCISS-7C21-00002\\src
+
                 CallCppCheck(strCppCheckPath, strParam);
 
                 if (File.Exists(TempFile) && (new FileInfo(TempFile)).Length > 0)
