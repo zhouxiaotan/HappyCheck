@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.Xml;
 using Excel = Microsoft.Office.Interop.Excel;
 
-namespace StaticCheck
+namespace HappyCode
 {
 
     public partial class StaticCheck : Form
@@ -61,9 +61,15 @@ namespace StaticCheck
         //System.Threading.Thread CheckThread;
         private void btnCheck_Click(object sender, EventArgs e)
         {
+            if (!CReg.CanRun())
+            {
+                MessageBox.Show("Please register software!!", "Happy Code");
+                return;
+            }
+
             if (string.IsNullOrEmpty(this.txtFolder.Text))
             {
-                MessageBox.Show("Folder is Empty！！！！！", "Static Check");
+                MessageBox.Show("Folder is Empty！！！！！", "Happy Code");
                 return;
             }
 
@@ -100,10 +106,11 @@ namespace StaticCheck
                 p.BeginOutputReadLine();
                 p.WaitForExit();
                 p.Close();
+                SetWindowText(txtProgressHandle, "Checked Completed!");
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message, "Happy Code");
             }
             return;
         }
@@ -126,6 +133,7 @@ namespace StaticCheck
                         System.Windows.Forms.Application.DoEvents();
                     }
                 }
+                Console.WriteLine(e.Data);
             }
             catch (Exception)
             {
@@ -143,7 +151,7 @@ namespace StaticCheck
                     string[] text = File.ReadAllLines(strXmlPath, Encoding.GetEncoding("shift_jis"));
                     foreach (var eachItem in text)
                     {
-                        if (string.IsNullOrEmpty(eachItem.Trim(new char[] { '^',' ' })))
+                        if (string.IsNullOrEmpty(eachItem.Trim(new char[] { '^', ' ' })))
                         {
                             continue;
                         }
@@ -163,7 +171,7 @@ namespace StaticCheck
             }
             catch (Exception ex)
             {
-                //MessageBox.Show(ex.ToString());
+                MessageBox.Show(ex.ToString(), "Happy Code");
             }
         }
 
@@ -195,7 +203,8 @@ namespace StaticCheck
                 //string TempFile = TempFile;// dllPath + "\\" + DateTime.Now.ToString("yyyyMMddHHmm") + ".xml";
                 string fomat = "--template=\"{file}#{line}#{severity}#{id}#{message}#{code}\"";
                 //string strParam = string.Format(" --enable=all -j 2 -i {0} {1} --xml 2>{2}", excludeFolder, beCheckFolder, "\"" + strCheckXml + "\"");
-                string strParam = string.Format(" --enable=all -j 4 {0} {2} 2>{1}", beCheckFolder, "\"" + TempFile + "\"", fomat);
+                //string strParam = string.Format(" --enable=all -j 4 {0} {2} 2>{1}", beCheckFolder, "\"" + TempFile + "\"", fomat);
+                string strParam = string.Format(" --enable=all {0} {2} 2>{1}", beCheckFolder, "\"" + TempFile + "\"", fomat);
 
                 // --enable=all -j 4 C:\\Workspace\\NTT\\PCISS-7C21-00002\\src
 
@@ -223,7 +232,7 @@ namespace StaticCheck
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message, "Happy Code");
             }
         }
 
@@ -340,7 +349,8 @@ namespace StaticCheck
 
         private void btnSelectFolder_Click(object sender, EventArgs e)
         {
-            FolderBrowserDialog dlg = new FolderBrowserDialog();
+            var dlg = new FileFolderDialog();
+            dlg.IsDialog = true;
             if (txtFolder.Text != string.Empty)
             {
                 dlg.SelectedPath = txtFolder.Text;
@@ -367,8 +377,16 @@ namespace StaticCheck
 
         private void btnReport_Click(object sender, System.EventArgs e)
         {
+
+            if (!CReg.CanRun())
+            {
+                MessageBox.Show("Please register software!!", "Happy Code");
+                return;
+            }
+
             if (dgResult.Rows.Count == 0)
             {
+                MessageBox.Show("Check Result is Empty!!", "Happy Code");
                 return;
             }
 
@@ -379,7 +397,11 @@ namespace StaticCheck
             Microsoft.Office.Interop.Excel.Worksheet xlWorkSheet;
             object misValue = System.Reflection.Missing.Value;
             xlApp = new Excel.Application();
-            if (xlApp == null) { MessageBox.Show("Excel is not properly installed!!"); return; }
+            if (xlApp == null)
+            {
+                MessageBox.Show("Excel is not properly installed!!", "Happy Code");
+                return;
+            }
 
             //xlApp.Visible = true;
             CultureInfo ci = new CultureInfo("en-US");
@@ -461,7 +483,7 @@ namespace StaticCheck
             catch (Exception ex)
             {
                 obj = null;
-                MessageBox.Show("Exception Occured while releasing object " + ex.ToString());
+                MessageBox.Show("Exception Occured while releasing object " + ex.ToString(), "Happy Code");
             }
             finally
             {
@@ -489,18 +511,24 @@ namespace StaticCheck
                 var process = Process.Start(Environment.SystemDirectory + @"\notepad.exe ", fileName);
                 process.WaitForInputIdle();
                 SetForegroundWindow(process.MainWindowHandle);
-                SendKeys.SendWait("^{g}");
-                foreach (var item in line)
-                {
-                    SendKeys.SendWait(item.ToString());
-                }
-                SendKeys.Send("{Enter}");
+                // SendKeys.SendWait("^{g}");
+                //foreach (var item in line)
+                //{
+                //    SendKeys.SendWait(item.ToString());
+                //}
+                //SendKeys.Send("{Enter}");
             }
             catch (Exception)
             {
-                //MessageBox.Show(ex.ToString());
+                //MessageBox.Show(ex.ToString(), "Happy Code");
             }
 
+        }
+
+        private void registerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var reg = new Register();
+            reg.Show();
         }
     }
 }

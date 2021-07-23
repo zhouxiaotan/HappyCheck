@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyCheck", "HappyCheck\HappyCheck.csproj", "{57DA373C-8208-4D98-A629-67047BCD2B0F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyCode", "HappyCheck\HappyCode.csproj", "{57DA373C-8208-4D98-A629-67047BCD2B0F}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "HappyCheckSetup", "HappyCheckSetup\StaticCheckSetup.vdproj", "{0683894F-0884-4558-904E-105EB70A7844}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "HappyCodeSetup", "HappyCheckSetup\StaticCheckSetup.vdproj", "{0683894F-0884-4558-904E-105EB70A7844}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenFile", "GenFile\GenFile.csproj", "{57FEE83E-4DA6-4505-B853-F3EB957DD6DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{0683894F-0884-4558-904E-105EB70A7844}.Debug|Any CPU.Build.0 = Debug
 		{0683894F-0884-4558-904E-105EB70A7844}.Release|Any CPU.ActiveCfg = Release
 		{0683894F-0884-4558-904E-105EB70A7844}.Release|Any CPU.Build.0 = Release
+		{57FEE83E-4DA6-4505-B853-F3EB957DD6DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57FEE83E-4DA6-4505-B853-F3EB957DD6DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57FEE83E-4DA6-4505-B853-F3EB957DD6DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57FEE83E-4DA6-4505-B853-F3EB957DD6DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

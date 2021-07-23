@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:HappyCheckSetup"
+"ProjectName" = "8:HappyCodeSetup"
 "LanguageId" = "3:1033"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:1033"
@@ -123,12 +123,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_524F99A085BD9959DC7645AF21C4F58F"
-        "OwnerKey" = "8:_7C2B24AF15823EF3BCC6142163F8313A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_59E1FE6A3C5C4010B0EBE3C38E1C4F88"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -165,12 +159,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_7C2B24AF15823EF3BCC6142163F8313A"
-        "OwnerKey" = "8:_A29DB280EC984E2980FF4AA0A64EAFD8"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_80326FEAE4EB4ACEB04CC6927CD2C786"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -185,24 +173,6 @@
         {
         "MsmKey" = "8:_95AA7A016C094F3FB5F0A30BF2805DE2"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_A29DB280EC984E2980FF4AA0A64EAFD8"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_A7298F689E0B440BE2E1FAEC8ECA45E7"
-        "OwnerKey" = "8:_524F99A085BD9959DC7645AF21C4F58F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_A7298F689E0B440BE2E1FAEC8ECA45E7"
-        "OwnerKey" = "8:_7C2B24AF15823EF3BCC6142163F8313A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -245,6 +215,12 @@
         {
         "MsmKey" = "8:_BB0560C0A263AD36D788ECC101AC32A7"
         "OwnerKey" = "8:_31C2BD2D9985489DAEA61A6E14E7B2F1"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BE65A417BCA7C5F0FB4ACA4B9153291B"
+        "OwnerKey" = "8:_B6B0422E466F086ABD7CD9DE968814CC"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -310,6 +286,12 @@
         "Entry"
         {
         "MsmKey" = "8:_D4C7209588824388900CC53E93482BE8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_DD7AE31CC159422E8AC0BD0FFCEE9205"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -382,13 +364,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A29DB280EC984E2980FF4AA0A64EAFD8"
+        "OwnerKey" = "8:_F32BBF575373DE87F336E77677A6ECE2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F32BBF575373DE87F336E77677A6ECE2"
+        "OwnerKey" = "8:_DD7AE31CC159422E8AC0BD0FFCEE9205"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -430,25 +412,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_BE65A417BCA7C5F0FB4ACA4B9153291B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_00F609553DD898AADD6F61CB07463058"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_7C2B24AF15823EF3BCC6142163F8313A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_524F99A085BD9959DC7645AF21C4F58F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A7298F689E0B440BE2E1FAEC8ECA45E7"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -888,37 +858,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_524F99A085BD9959DC7645AF21C4F58F"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Microsoft.Vbe.Interop, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"
-                "ScatterAssemblies"
-                {
-                    "_524F99A085BD9959DC7645AF21C4F58F"
-                    {
-                    "Name" = "8:Microsoft.Vbe.Interop.DLL"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Microsoft.Vbe.Interop.DLL"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_21C63397F16C4DAD91BF0829A3271036"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_59E1FE6A3C5C4010B0EBE3C38E1C4F88"
             {
             "SourcePath" = "8:..\\Cppcheck\\cppcheck.exe"
@@ -1039,37 +978,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7C2B24AF15823EF3BCC6142163F8313A"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"
-                "ScatterAssemblies"
-                {
-                    "_7C2B24AF15823EF3BCC6142163F8313A"
-                    {
-                    "Name" = "8:Microsoft.Office.Interop.Excel.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Microsoft.Office.Interop.Excel.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_21C63397F16C4DAD91BF0829A3271036"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_80326FEAE4EB4ACEB04CC6927CD2C786"
             {
             "SourcePath" = "8:..\\Cppcheck\\cfg\\qt.cfg"
@@ -1128,37 +1036,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A7298F689E0B440BE2E1FAEC8ECA45E7"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:office, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"
-                "ScatterAssemblies"
-                {
-                    "_A7298F689E0B440BE2E1FAEC8ECA45E7"
-                    {
-                    "Name" = "8:office.DLL"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:office.DLL"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_21C63397F16C4DAD91BF0829A3271036"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AD20FDA77206478C92742C0817AFF20F"
@@ -1286,6 +1163,37 @@
                     }
                 }
             "SourcePath" = "8:Microsoft.Vbe.Interop.DLL"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_21C63397F16C4DAD91BF0829A3271036"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_BE65A417BCA7C5F0FB4ACA4B9153291B"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:TRUE"
+            "AssemblyAsmDisplayName" = "8:stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+                "ScatterAssemblies"
+                {
+                    "_BE65A417BCA7C5F0FB4ACA4B9153291B"
+                    {
+                    "Name" = "8:stdole.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:stdole.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_21C63397F16C4DAD91BF0829A3271036"
@@ -1855,20 +1763,20 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:HappyCheckSetup"
-        "ProductCode" = "8:{CC59CAFC-AA17-4F73-B966-4B6187277571}"
-        "PackageCode" = "8:{A681184F-5C8A-4607-B820-F50869B9A8AB}"
+        "ProductName" = "8:HappyCodeSetup"
+        "ProductCode" = "8:{BE3E0A83-1202-43D6-9798-23FBA48C4475}"
+        "PackageCode" = "8:{94813463-DDDA-42DA-9AB7-2800380FCF24}"
         "UpgradeCode" = "8:{D4E9FDF9-0562-46DC-B4B4-DD7D8926CD1D}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.4"
+        "ProductVersion" = "8:1.0.5"
         "Manufacturer" = "8:Default Company Name"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:StaticCheckSetup"
+        "Title" = "8:HappyCodeSetup"
         "Subject" = "8:"
         "ARPCONTACT" = "8:Default Company Name"
         "Keywords" = "8:"
@@ -1977,15 +1885,29 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_FD1B51D7B8184FB08155A1EDB1328FDB"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_679642F6BA204868886032EB78B745E0"
             {
-            "Name" = "8:HappyCheck"
+            "Name" = "8:HappyCode"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_A29DB280EC984E2980FF4AA0A64EAFD8"
+            "Target" = "8:_DD7AE31CC159422E8AC0BD0FFCEE9205"
+            "Folder" = "8:_5EC1DCE67BA64ADD8EEE0DC0A81AD53B"
+            "WorkingFolder" = "8:_21C63397F16C4DAD91BF0829A3271036"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_FD1B51D7B8184FB08155A1EDB1328FDB"
+            {
+            "Name" = "8:HappyCode"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_DD7AE31CC159422E8AC0BD0FFCEE9205"
             "Folder" = "8:_A2ACCA8A3DE8427D90743475C92842B9"
             "WorkingFolder" = "8:_21C63397F16C4DAD91BF0829A3271036"
             "Icon" = "8:"
@@ -2390,9 +2312,9 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_A29DB280EC984E2980FF4AA0A64EAFD8"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_DD7AE31CC159422E8AC0BD0FFCEE9205"
             {
-            "SourcePath" = "8:..\\HappyCheck\\obj\\Release\\HappyCheck.exe"
+            "SourcePath" = "8:..\\HappyCheck\\obj\\Release\\HappyCode.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_21C63397F16C4DAD91BF0829A3271036"
